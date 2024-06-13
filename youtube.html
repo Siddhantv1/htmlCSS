@@ -12,6 +12,7 @@
     }
     .video1{
         width: 300px;
+        display: block;
         /* the object position determines the shape of image's fit with the aspect ratio  */
         /* contain to shrink until it fits the container */
     }
@@ -23,21 +24,30 @@
         border-color: rgb(141, 142, 143);
         border-width: 2px;
         border-style: solid;
-        padding:10px 10px 10px 10px
+        padding:10px 10px 10px 10px;
+        display:block
     }
-    .video-title{
-
+    .div1{
+        display:inline-block;
     }
+  
 </style>
 <body class="theme">
-    <img class="video1" src="thumbnails/hq720.webp">
-    <p class="video-title">
-        Sajni(Lyrical Video): Arijit Singh, Ram Sampath | Laapataa Ladies
-    </p>
-    <p>
-        23M views &#183; 4 months ago
-    </p>
-    <!--SEARCH BAR-->
-    <input class="search-bar" type="search" placeholder="Search YouTube">
+     <!--SEARCH BAR-->
+     <input class="search-bar" type="search" placeholder="Search YouTube">
+     <br>
+    <div class="div1">
+        <img class="video1" src="thumbnails/hq720.webp">
+        <p class="video-title">
+            Sajni(Lyrical Video): Arijit Singh, Ram Sampath | Laapataa Ladies
+        </p>
+        <p class="video-author">
+            T- Series 
+        </p>
+        <p class="video-stats">
+            23M views &#183; 4 months ago
+        </p>
+    </div>
+
 </body>
 </html>
