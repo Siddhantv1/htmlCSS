@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube: Broadcast yourself</title>
 </head>
+<style>
+    .video1{
+        width: 300px;
+        /* the object position determines the shape of image's fit with the aspect ratio  */
+        /* contain to shrink until it fits the container */
+    }
+    .search-bar{
+        border-radius: 50px;
+        border-width: 0.5px;
+    }
+</style>
 <body>
-    <img src="thumbnails/hq720.webp">
+    <img class="video1" src="thumbnails/hq720.webp">
+
+    <!--SEARCH BAR-->
+    <input class="search-bar" type="text" placeholder="Search YouTube">
 </body>
 </html>
