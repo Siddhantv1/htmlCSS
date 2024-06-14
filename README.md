@@ -1,2 +1,4 @@
 HTML AND UNRELATED FILES
 first push lesgo
+
+i FUGGIN HATE HTML CSS
